@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E22DA5B24C0CD9000F9373B /* WebsiteConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22DA5A24C0CD9000F9373B /* WebsiteConsultationViewController.swift */; };
+		4E276E9824BDF93B0037E158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276E9724BDF93B0037E158 /* AppDelegate.swift */; };
+		4E276E9A24BDF93B0037E158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276E9924BDF93B0037E158 /* SceneDelegate.swift */; };
+		4E276E9C24BDF93B0037E158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276E9B24BDF93B0037E158 /* ViewController.swift */; };
+		4E276E9F24BDF93B0037E158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E276E9D24BDF93B0037E158 /* Main.storyboard */; };
+		4E276EA124BDF93F0037E158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E276EA024BDF93F0037E158 /* Assets.xcassets */; };
+		4E276EA424BDF93F0037E158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E276EA224BDF93F0037E158 /* LaunchScreen.storyboard */; };
+		4E276EAF24BDF93F0037E158 /* Pylot_LeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276EAE24BDF93F0037E158 /* Pylot_LeadsTests.swift */; };
+		4E276EBA24BDF93F0037E158 /* Pylot_LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276EB924BDF93F0037E158 /* Pylot_LeadsUITests.swift */; };
+		4E2CED7D24C0A9FB00BF9EE7 /* SelectPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED7C24C0A9FB00BF9EE7 /* SelectPagesViewController.swift */; };
+		4E2CED7F24C0AA2500BF9EE7 /* SelectPagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED7E24C0AA2500BF9EE7 /* SelectPagesCell.swift */; };
+		4E2CED8224C0AA8400BF9EE7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED8124C0AA8400BF9EE7 /* DashboardViewController.swift */; };
+		4E7CDCD124BF2486001D4789 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCD024BF2486001D4789 /* RegisterViewController.swift */; };
+		4E7CDCDA24BF5A28001D4789 /* ViewAllLeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCD924BF5A28001D4789 /* ViewAllLeadsViewController.swift */; };
+		4E7CDCDE24BF6149001D4789 /* ViewAllLeadsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCDD24BF6149001D4789 /* ViewAllLeadsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E276EAB24BDF93F0037E158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E276E8C24BDF93B0037E158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E276E9324BDF93B0037E158;
+			remoteInfo = "Pylot Leads";
+		};
+		4E276EB624BDF93F0037E158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E276E8C24BDF93B0037E158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E276E9324BDF93B0037E158;
+			remoteInfo = "Pylot Leads";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E22DA5A24C0CD9000F9373B /* WebsiteConsultationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteConsultationViewController.swift; sourceTree = "<group>"; };
+		4E276E9424BDF93B0037E158 /* Pylot Leads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pylot Leads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E276E9724BDF93B0037E158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E276E9924BDF93B0037E158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E276E9B24BDF93B0037E158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E276E9E24BDF93B0037E158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E276EA024BDF93F0037E158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E276EA324BDF93F0037E158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E276EA524BDF93F0037E158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E276EAA24BDF93F0037E158 /* Pylot LeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pylot LeadsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E276EAE24BDF93F0037E158 /* Pylot_LeadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pylot_LeadsTests.swift; sourceTree = "<group>"; };
+		4E276EB024BDF93F0037E158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E276EB524BDF93F0037E158 /* Pylot LeadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pylot LeadsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E276EB924BDF93F0037E158 /* Pylot_LeadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pylot_LeadsUITests.swift; sourceTree = "<group>"; };
+		4E276EBB24BDF93F0037E158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2CED7C24C0A9FB00BF9EE7 /* SelectPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPagesViewController.swift; sourceTree = "<group>"; };
+		4E2CED7E24C0AA2500BF9EE7 /* SelectPagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPagesCell.swift; sourceTree = "<group>"; };
+		4E2CED8124C0AA8400BF9EE7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4E7CDCD024BF2486001D4789 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4E7CDCD924BF5A28001D4789 /* ViewAllLeadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllLeadsViewController.swift; sourceTree = "<group>"; };
+		4E7CDCDD24BF6149001D4789 /* ViewAllLeadsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllLeadsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E276E9124BDF93B0037E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EA724BDF93F0037E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EB224BDF93F0037E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E276E8B24BDF93B0037E158 = {
+			isa = PBXGroup;
+			children = (
+				4E276E9624BDF93B0037E158 /* Pylot Leads */,
+				4E276EAD24BDF93F0037E158 /* Pylot LeadsTests */,
+				4E276EB824BDF93F0037E158 /* Pylot LeadsUITests */,
+				4E276E9524BDF93B0037E158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E276E9524BDF93B0037E158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E276E9424BDF93B0037E158 /* Pylot Leads.app */,
+				4E276EAA24BDF93F0037E158 /* Pylot LeadsTests.xctest */,
+				4E276EB524BDF93F0037E158 /* Pylot LeadsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E276E9624BDF93B0037E158 /* Pylot Leads */ = {
+			isa = PBXGroup;
+			children = (
+				4E7CDCCD24BF2097001D4789 /* Views */,
+				4E276E9724BDF93B0037E158 /* AppDelegate.swift */,
+				4E276E9924BDF93B0037E158 /* SceneDelegate.swift */,
+				4E276E9D24BDF93B0037E158 /* Main.storyboard */,
+				4E276EA224BDF93F0037E158 /* LaunchScreen.storyboard */,
+				4E276EA024BDF93F0037E158 /* Assets.xcassets */,
+				4E276EA524BDF93F0037E158 /* Info.plist */,
+			);
+			path = "Pylot Leads";
+			sourceTree = "<group>";
+		};
+		4E276EAD24BDF93F0037E158 /* Pylot LeadsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E276EAE24BDF93F0037E158 /* Pylot_LeadsTests.swift */,
+				4E276EB024BDF93F0037E158 /* Info.plist */,
+			);
+			path = "Pylot LeadsTests";
+			sourceTree = "<group>";
+		};
+		4E276EB824BDF93F0037E158 /* Pylot LeadsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E276EB924BDF93F0037E158 /* Pylot_LeadsUITests.swift */,
+				4E276EBB24BDF93F0037E158 /* Info.plist */,
+			);
+			path = "Pylot LeadsUITests";
+			sourceTree = "<group>";
+		};
+		4E2CED7B24C0A9CF00BF9EE7 /* Select Page To View */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CED7C24C0A9FB00BF9EE7 /* SelectPagesViewController.swift */,
+				4E2CED7E24C0AA2500BF9EE7 /* SelectPagesCell.swift */,
+			);
+			path = "Select Page To View";
+			sourceTree = "<group>";
+		};
+		4E2CED8024C0AA6800BF9EE7 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CED8124C0AA8400BF9EE7 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4E7CDCC924BF205E001D4789 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				4E7CDCD024BF2486001D4789 /* RegisterViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		4E7CDCCD24BF2097001D4789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CED8024C0AA6800BF9EE7 /* Dashboard */,
+				4E2CED7B24C0A9CF00BF9EE7 /* Select Page To View */,
+				4E7CDCD824BF5A0B001D4789 /* View All Leads */,
+				4E7CDCC924BF205E001D4789 /* Sign Up */,
+				4E276E9B24BDF93B0037E158 /* ViewController.swift */,
+				4E22DA5A24C0CD9000F9373B /* WebsiteConsultationViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E7CDCD824BF5A0B001D4789 /* View All Leads */ = {
+			isa = PBXGroup;
+			children = (
+				4E7CDCD924BF5A28001D4789 /* ViewAllLeadsViewController.swift */,
+				4E7CDCDD24BF6149001D4789 /* ViewAllLeadsCell.swift */,
+			);
+			path = "View All Leads";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E276E9324BDF93B0037E158 /* Pylot Leads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E276EBE24BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot Leads" */;
+			buildPhases = (
+				4E276E9024BDF93B0037E158 /* Sources */,
+				4E276E9124BDF93B0037E158 /* Frameworks */,
+				4E276E9224BDF93B0037E158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pylot Leads";
+			productName = "Pylot Leads";
+			productReference = 4E276E9424BDF93B0037E158 /* Pylot Leads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E276EA924BDF93F0037E158 /* Pylot LeadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E276EC124BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsTests" */;
+			buildPhases = (
+				4E276EA624BDF93F0037E158 /* Sources */,
+				4E276EA724BDF93F0037E158 /* Frameworks */,
+				4E276EA824BDF93F0037E158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E276EAC24BDF93F0037E158 /* PBXTargetDependency */,
+			);
+			name = "Pylot LeadsTests";
+			productName = "Pylot LeadsTests";
+			productReference = 4E276EAA24BDF93F0037E158 /* Pylot LeadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E276EB424BDF93F0037E158 /* Pylot LeadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E276EC424BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsUITests" */;
+			buildPhases = (
+				4E276EB124BDF93F0037E158 /* Sources */,
+				4E276EB224BDF93F0037E158 /* Frameworks */,
+				4E276EB324BDF93F0037E158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E276EB724BDF93F0037E158 /* PBXTargetDependency */,
+			);
+			name = "Pylot LeadsUITests";
+			productName = "Pylot LeadsUITests";
+			productReference = 4E276EB524BDF93F0037E158 /* Pylot LeadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E276E8C24BDF93B0037E158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Mts-MacMini-2";
+				TargetAttributes = {
+					4E276E9324BDF93B0037E158 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					4E276EA924BDF93F0037E158 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4E276E9324BDF93B0037E158;
+					};
+					4E276EB424BDF93F0037E158 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4E276E9324BDF93B0037E158;
+					};
+				};
+			};
+			buildConfigurationList = 4E276E8F24BDF93B0037E158 /* Build configuration list for PBXProject "Pylot Leads" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E276E8B24BDF93B0037E158;
+			productRefGroup = 4E276E9524BDF93B0037E158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E276E9324BDF93B0037E158 /* Pylot Leads */,
+				4E276EA924BDF93F0037E158 /* Pylot LeadsTests */,
+				4E276EB424BDF93F0037E158 /* Pylot LeadsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E276E9224BDF93B0037E158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E276EA424BDF93F0037E158 /* LaunchScreen.storyboard in Resources */,
+				4E276EA124BDF93F0037E158 /* Assets.xcassets in Resources */,
+				4E276E9F24BDF93B0037E158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EA824BDF93F0037E158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EB324BDF93F0037E158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E276E9024BDF93B0037E158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2CED7F24C0AA2500BF9EE7 /* SelectPagesCell.swift in Sources */,
+				4E22DA5B24C0CD9000F9373B /* WebsiteConsultationViewController.swift in Sources */,
+				4E2CED8224C0AA8400BF9EE7 /* DashboardViewController.swift in Sources */,
+				4E7CDCDA24BF5A28001D4789 /* ViewAllLeadsViewController.swift in Sources */,
+				4E276E9C24BDF93B0037E158 /* ViewController.swift in Sources */,
+				4E276E9824BDF93B0037E158 /* AppDelegate.swift in Sources */,
+				4E276E9A24BDF93B0037E158 /* SceneDelegate.swift in Sources */,
+				4E2CED7D24C0A9FB00BF9EE7 /* SelectPagesViewController.swift in Sources */,
+				4E7CDCDE24BF6149001D4789 /* ViewAllLeadsCell.swift in Sources */,
+				4E7CDCD124BF2486001D4789 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EA624BDF93F0037E158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E276EAF24BDF93F0037E158 /* Pylot_LeadsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E276EB124BDF93F0037E158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E276EBA24BDF93F0037E158 /* Pylot_LeadsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E276EAC24BDF93F0037E158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E276E9324BDF93B0037E158 /* Pylot Leads */;
+			targetProxy = 4E276EAB24BDF93F0037E158 /* PBXContainerItemProxy */;
+		};
+		4E276EB724BDF93F0037E158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E276E9324BDF93B0037E158 /* Pylot Leads */;
+			targetProxy = 4E276EB624BDF93F0037E158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E276E9D24BDF93B0037E158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E276E9E24BDF93B0037E158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E276EA224BDF93F0037E158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E276EA324BDF93F0037E158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E276EBC24BDF93F0037E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E276EBD24BDF93F0037E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E276EBF24BDF93F0037E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot Leads/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-Leads";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E276EC024BDF93F0037E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot Leads/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-Leads";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E276EC224BDF93F0037E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot LeadsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-LeadsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pylot Leads.app/Pylot Leads";
+			};
+			name = Debug;
+		};
+		4E276EC324BDF93F0037E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot LeadsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-LeadsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pylot Leads.app/Pylot Leads";
+			};
+			name = Release;
+		};
+		4E276EC524BDF93F0037E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot LeadsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-LeadsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pylot Leads";
+			};
+			name = Debug;
+		};
+		4E276EC624BDF93F0037E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSUHZQZ3Z8;
+				INFOPLIST_FILE = "Pylot LeadsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Mts-MacMini-2.Pylot-LeadsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pylot Leads";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E276E8F24BDF93B0037E158 /* Build configuration list for PBXProject "Pylot Leads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E276EBC24BDF93F0037E158 /* Debug */,
+				4E276EBD24BDF93F0037E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E276EBE24BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot Leads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E276EBF24BDF93F0037E158 /* Debug */,
+				4E276EC024BDF93F0037E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E276EC124BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E276EC224BDF93F0037E158 /* Debug */,
+				4E276EC324BDF93F0037E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E276EC424BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E276EC524BDF93F0037E158 /* Debug */,
+				4E276EC624BDF93F0037E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E276E8C24BDF93B0037E158 /* Project object */;
+}
