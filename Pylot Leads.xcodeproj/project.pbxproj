@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F47A369680E1BCD4B0C8E9F /* Pods_Pylot_LeadsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35340463FC783611F969ABF /* Pods_Pylot_LeadsTests.framework */; };
 		4E22DA5B24C0CD9000F9373B /* WebsiteConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22DA5A24C0CD9000F9373B /* WebsiteConsultationViewController.swift */; };
 		4E276E9824BDF93B0037E158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276E9724BDF93B0037E158 /* AppDelegate.swift */; };
 		4E276E9A24BDF93B0037E158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276E9924BDF93B0037E158 /* SceneDelegate.swift */; };
@@ -16,12 +17,15 @@
 		4E276EA424BDF93F0037E158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E276EA224BDF93F0037E158 /* LaunchScreen.storyboard */; };
 		4E276EAF24BDF93F0037E158 /* Pylot_LeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276EAE24BDF93F0037E158 /* Pylot_LeadsTests.swift */; };
 		4E276EBA24BDF93F0037E158 /* Pylot_LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E276EB924BDF93F0037E158 /* Pylot_LeadsUITests.swift */; };
+		4E28318224C80EFD00023A6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E28318124C80EFD00023A6F /* GoogleService-Info.plist */; };
 		4E2CED7D24C0A9FB00BF9EE7 /* SelectPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED7C24C0A9FB00BF9EE7 /* SelectPagesViewController.swift */; };
 		4E2CED7F24C0AA2500BF9EE7 /* SelectPagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED7E24C0AA2500BF9EE7 /* SelectPagesCell.swift */; };
 		4E2CED8224C0AA8400BF9EE7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CED8124C0AA8400BF9EE7 /* DashboardViewController.swift */; };
 		4E7CDCD124BF2486001D4789 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCD024BF2486001D4789 /* RegisterViewController.swift */; };
 		4E7CDCDA24BF5A28001D4789 /* ViewAllLeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCD924BF5A28001D4789 /* ViewAllLeadsViewController.swift */; };
 		4E7CDCDE24BF6149001D4789 /* ViewAllLeadsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CDCDD24BF6149001D4789 /* ViewAllLeadsCell.swift */; };
+		999E6A60157471F8E0A50911 /* Pods_Pylot_Leads_Pylot_LeadsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69536154786A3739D6F72D23 /* Pods_Pylot_Leads_Pylot_LeadsUITests.framework */; };
+		AE67F9CC13E36D0E9C36BD9B /* Pods_Pylot_Leads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F718D5C05667F01CAF4B8C /* Pods_Pylot_Leads.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA97D67CA778F8434FE13A5 /* Pods-Pylot Leads-Pylot LeadsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot Leads-Pylot LeadsUITests.release.xcconfig"; path = "Target Support Files/Pods-Pylot Leads-Pylot LeadsUITests/Pods-Pylot Leads-Pylot LeadsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4386EAEC064BB0AD64EED87F /* Pods-Pylot Leads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot Leads.release.xcconfig"; path = "Target Support Files/Pods-Pylot Leads/Pods-Pylot Leads.release.xcconfig"; sourceTree = "<group>"; };
 		4E22DA5A24C0CD9000F9373B /* WebsiteConsultationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteConsultationViewController.swift; sourceTree = "<group>"; };
 		4E276E9424BDF93B0037E158 /* Pylot Leads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pylot Leads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E276E9724BDF93B0037E158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +63,20 @@
 		4E276EB524BDF93F0037E158 /* Pylot LeadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pylot LeadsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E276EB924BDF93F0037E158 /* Pylot_LeadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pylot_LeadsUITests.swift; sourceTree = "<group>"; };
 		4E276EBB24BDF93F0037E158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E28318124C80EFD00023A6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E2CED7C24C0A9FB00BF9EE7 /* SelectPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPagesViewController.swift; sourceTree = "<group>"; };
 		4E2CED7E24C0AA2500BF9EE7 /* SelectPagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPagesCell.swift; sourceTree = "<group>"; };
 		4E2CED8124C0AA8400BF9EE7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		4E7CDCD024BF2486001D4789 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4E7CDCD924BF5A28001D4789 /* ViewAllLeadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllLeadsViewController.swift; sourceTree = "<group>"; };
 		4E7CDCDD24BF6149001D4789 /* ViewAllLeadsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllLeadsCell.swift; sourceTree = "<group>"; };
+		69536154786A3739D6F72D23 /* Pods_Pylot_Leads_Pylot_LeadsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pylot_Leads_Pylot_LeadsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F718D5C05667F01CAF4B8C /* Pods_Pylot_Leads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pylot_Leads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2CB774E3FC1ECB50F1F538 /* Pods-Pylot Leads-Pylot LeadsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot Leads-Pylot LeadsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pylot Leads-Pylot LeadsUITests/Pods-Pylot Leads-Pylot LeadsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD56E9FB238745FA604DBAD2 /* Pods-Pylot LeadsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot LeadsTests.release.xcconfig"; path = "Target Support Files/Pods-Pylot LeadsTests/Pods-Pylot LeadsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C35340463FC783611F969ABF /* Pods_Pylot_LeadsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pylot_LeadsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3ADB05409253222443750BD /* Pods-Pylot Leads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot Leads.debug.xcconfig"; path = "Target Support Files/Pods-Pylot Leads/Pods-Pylot Leads.debug.xcconfig"; sourceTree = "<group>"; };
+		E3DA4608948CA6CC90982A64 /* Pods-Pylot LeadsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pylot LeadsTests.debug.xcconfig"; path = "Target Support Files/Pods-Pylot LeadsTests/Pods-Pylot LeadsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE67F9CC13E36D0E9C36BD9B /* Pods_Pylot_Leads.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F47A369680E1BCD4B0C8E9F /* Pods_Pylot_LeadsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999E6A60157471F8E0A50911 /* Pods_Pylot_Leads_Pylot_LeadsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +114,8 @@
 				4E276EAD24BDF93F0037E158 /* Pylot LeadsTests */,
 				4E276EB824BDF93F0037E158 /* Pylot LeadsUITests */,
 				4E276E9524BDF93B0037E158 /* Products */,
+				D215C2B84A9AC2C53197A6CD /* Pods */,
+				D8423B1950BAB3788049FE79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +139,7 @@
 				4E276EA224BDF93F0037E158 /* LaunchScreen.storyboard */,
 				4E276EA024BDF93F0037E158 /* Assets.xcassets */,
 				4E276EA524BDF93F0037E158 /* Info.plist */,
+				4E28318124C80EFD00023A6F /* GoogleService-Info.plist */,
 			);
 			path = "Pylot Leads";
 			sourceTree = "<group>";
@@ -189,6 +209,30 @@
 			path = "View All Leads";
 			sourceTree = "<group>";
 		};
+		D215C2B84A9AC2C53197A6CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3ADB05409253222443750BD /* Pods-Pylot Leads.debug.xcconfig */,
+				4386EAEC064BB0AD64EED87F /* Pods-Pylot Leads.release.xcconfig */,
+				AE2CB774E3FC1ECB50F1F538 /* Pods-Pylot Leads-Pylot LeadsUITests.debug.xcconfig */,
+				0DA97D67CA778F8434FE13A5 /* Pods-Pylot Leads-Pylot LeadsUITests.release.xcconfig */,
+				E3DA4608948CA6CC90982A64 /* Pods-Pylot LeadsTests.debug.xcconfig */,
+				BD56E9FB238745FA604DBAD2 /* Pods-Pylot LeadsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8423B1950BAB3788049FE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F718D5C05667F01CAF4B8C /* Pods_Pylot_Leads.framework */,
+				69536154786A3739D6F72D23 /* Pods_Pylot_Leads_Pylot_LeadsUITests.framework */,
+				C35340463FC783611F969ABF /* Pods_Pylot_LeadsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E276EBE24BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot Leads" */;
 			buildPhases = (
+				4BE6150FF55E06EFDDD56E7E /* [CP] Check Pods Manifest.lock */,
 				4E276E9024BDF93B0037E158 /* Sources */,
 				4E276E9124BDF93B0037E158 /* Frameworks */,
 				4E276E9224BDF93B0037E158 /* Resources */,
+				EFBC473825EBD2BE9229875E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E276EC124BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsTests" */;
 			buildPhases = (
+				5314E5F0778398C81D2E588D /* [CP] Check Pods Manifest.lock */,
 				4E276EA624BDF93F0037E158 /* Sources */,
 				4E276EA724BDF93F0037E158 /* Frameworks */,
 				4E276EA824BDF93F0037E158 /* Resources */,
@@ -231,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E276EC424BDF93F0037E158 /* Build configuration list for PBXNativeTarget "Pylot LeadsUITests" */;
 			buildPhases = (
+				C8BC49EF3563F9EA62E1DF7D /* [CP] Check Pods Manifest.lock */,
 				4E276EB124BDF93F0037E158 /* Sources */,
 				4E276EB224BDF93F0037E158 /* Frameworks */,
 				4E276EB324BDF93F0037E158 /* Resources */,
+				EB6ECBB8060AA4DF6BC00395 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E276EA424BDF93F0037E158 /* LaunchScreen.storyboard in Resources */,
+				4E28318224C80EFD00023A6F /* GoogleService-Info.plist in Resources */,
 				4E276EA124BDF93F0037E158 /* Assets.xcassets in Resources */,
 				4E276E9F24BDF93B0037E158 /* Main.storyboard in Resources */,
 			);
@@ -314,6 +364,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BE6150FF55E06EFDDD56E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pylot Leads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5314E5F0778398C81D2E588D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pylot LeadsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BC49EF3563F9EA62E1DF7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pylot Leads-Pylot LeadsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6ECBB8060AA4DF6BC00395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads-Pylot LeadsUITests/Pods-Pylot Leads-Pylot LeadsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads-Pylot LeadsUITests/Pods-Pylot Leads-Pylot LeadsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads-Pylot LeadsUITests/Pods-Pylot Leads-Pylot LeadsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBC473825EBD2BE9229875E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads/Pods-Pylot Leads-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads/Pods-Pylot Leads-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pylot Leads/Pods-Pylot Leads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E276E9024BDF93B0037E158 /* Sources */ = {
@@ -500,6 +653,7 @@
 		};
 		4E276EBF24BDF93F0037E158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3ADB05409253222443750BD /* Pods-Pylot Leads.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,6 +672,7 @@
 		};
 		4E276EC024BDF93F0037E158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4386EAEC064BB0AD64EED87F /* Pods-Pylot Leads.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +691,7 @@
 		};
 		4E276EC224BDF93F0037E158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DA4608948CA6CC90982A64 /* Pods-Pylot LeadsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -558,6 +714,7 @@
 		};
 		4E276EC324BDF93F0037E158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD56E9FB238745FA604DBAD2 /* Pods-Pylot LeadsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +737,7 @@
 		};
 		4E276EC524BDF93F0037E158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2CB774E3FC1ECB50F1F538 /* Pods-Pylot Leads-Pylot LeadsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,6 +758,7 @@
 		};
 		4E276EC624BDF93F0037E158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA97D67CA778F8434FE13A5 /* Pods-Pylot Leads-Pylot LeadsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

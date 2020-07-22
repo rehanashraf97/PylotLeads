@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>132553733165-ujp8ee92ufmp9rjjl9nvsgim7lm5cmu9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.132553733165-ujp8ee92ufmp9rjjl9nvsgim7lm5cmu9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBUPhXkJfY_80YrAQsB0wP7QgS_gNwlzzE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>132553733165</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.-Mts-MacMini-2.Pylot-Leads</string>
+	<key>PROJECT_ID</key>
+	<string>pylot-leads</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pylot-leads.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:132553733165:ios:538ad121276171a12ff4a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://pylot-leads.firebaseio.com</string>
+</dict>
+</plist>
