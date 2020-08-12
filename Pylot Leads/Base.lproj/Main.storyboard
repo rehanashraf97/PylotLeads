@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1706,12 +1706,6 @@
             <point key="canvasLocation" x="2558" y="853"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="zvs-yM-uGb"/>
-        <segue reference="lut-sW-hmW"/>
-        <segue reference="e3l-iB-GFW"/>
-        <segue reference="kqC-Iz-3O0"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Lead Arrow " width="77" height="77"/>
         <image name="Logo" width="477" height="487"/>
@@ -1728,4 +1722,10 @@
         <image name="side bar icon" width="95" height="60"/>
         <image name="viewleads" width="477" height="464"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="zvs-yM-uGb"/>
+        <segue reference="hmT-Be-Ony"/>
+        <segue reference="6Zk-8u-6oB"/>
+        <segue reference="kqC-Iz-3O0"/>
+    </inferredMetricsTieBreakers>
 </document>
